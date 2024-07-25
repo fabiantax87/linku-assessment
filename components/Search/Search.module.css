@@ -1,0 +1,27 @@
+.search {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  background-color: white;
+  border: 1px solid var(--light-gray);
+  border-radius: 12px;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 10px;
+  border-radius: 12px;
+  outline: none;
+  border: 1px solid var(--light-gray);
+}
+
+.searchResults {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.searchResults a {
+  text-decoration: none;
+  color: var(--dark-gray);
+}

@@ -1,0 +1,50 @@
+.nav {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 25px;
+  border-right: 1px solid var(--light-gray);
+  background-color: white;
+}
+
+.nav a {
+  color: var(--dark-gray);
+  text-decoration: none;
+}
+
+.navItemList {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-block: 10px;
+}
+
+.navItem:hover a {
+  color: black;
+  cursor: pointer;
+}
+
+.navItem:hover svg {
+  stroke: black;
+}
+
+.navItem svg {
+  width: 20px;
+  height: 20px;
+  stroke: var(--dark-gray);
+  stroke-width: 1.5px;
+  fill: none;
+}
+
+.devider {
+  width: 100%;
+  border-bottom: 1px solid var(--light-gray);
+  align-self: center;
+}
